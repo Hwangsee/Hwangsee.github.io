@@ -13,56 +13,62 @@
 
 # config file for demo site, DELETE IT IF YOU WANT.
 
+
 ## => Site Settings
 ##############################
 text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
-highlight_theme: tomorrow-night-bright # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
-url: https://tianqi.name
-baseurl: /jekyll-TeXt-theme
-title: TeXt Theme
+highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
+url     : https://tianqi.name
+baseurl : /jekyll-TeXt-theme
+title   : TeXt Theme
 description: >
   A super customizable Jekyll theme for personal site, team site, blog, project, documentation, etc.
+
 
 ## => Language and Timezone
 ##############################
 lang: en # the language of your site, default as "en"
 timezone: Asia/Shanghai
 
+
 ## => Author and Social
 ##############################
 author:
-  type: organization # "person" (default), "organization"
-  name: TeXt
-  url:
-  avatar: /assets/apple-touch-icon.png
+  type      : organization # "person" (default), "organization"
+  name      : TeXt
+  url       :
+  avatar    : /assets/apple-touch-icon.png
   bio: >
     TeXt is a super customizable Jekyll theme for personal site, team site, blog, project, documentation, etc.
     Similar to iOS 11 style, it has large and prominent titles, round buttons and cards.
-  email: kitian616@outlook.com
-  facebook:
-  twitter: kitian616
-  weibo: 234695683
+  email     : kitian616@outlook.com
+  facebook  :
+  twitter   : kitian616
+  weibo     : 234695683
   googleplus: 101827554735084402671
-  telegram:
-  medium:
-  zhihu:
-  douban:
-  linkedin:
-  github: kitian616/jekyll-TeXt-theme
-  npm:
+  telegram  :
+  medium    :
+  zhihu     :
+  douban    :
+  linkedin  :
+  github    : kitian616/jekyll-TeXt-theme
+  npm       :
+
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
 repository: kitian616/jekyll-TeXt-theme
 repository_tree: master
 
+
 ## => Paths
 ##############################
 paths:
-  root: # title link url, "/" (default)
-  home: /test/ # home layout url, "/" (default)
-  archive: # "/archive.html" (default)
-  rss: # "/feed.xml" (default)
+  root    : # title link url, "/" (default)
+  home    : /test/ # home layout url, "/" (default)
+  archive : # "/archive.html" (default)
+  rss     : # "/feed.xml" (default)
+
 
 ## => Post
 ##############################
@@ -76,6 +82,7 @@ license: CC-BY-4.0 # "CC-BY-4.0", "CC-BY-SA-4.0", "CC-BY-NC-4.0", "CC-BY-ND-4.0"
 toc:
   selectors: # "h1,h2,h3" (default)
 
+
 ## => Markdown Enhancements
 ##############################
 ## Mathjax
@@ -88,14 +95,17 @@ mermaid: true # false (default), true
 ## Chart
 chart: true # false (default), true
 
+
 ## => Paginate
 ##############################
 paginate: 8
 paginate_path: /test/page:num # don't change this unless for special need
 
+
 ## => Sources
 ##############################
 sources: # bootcdn (default), unpkg
+
 
 ## => Sharing
 ##############################
@@ -105,6 +115,7 @@ sharing:
   ## AddThis
   addthis:
     id: ra-5be59ee2486770cb # AddThis pubid, e.g. ra-5xxxxxxxxxxx
+
 
 ## => Comments
 ##############################
@@ -119,21 +130,22 @@ comments:
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
   gitalk:
-    clientID: 143666b578a416f82175
+    clientID    : 143666b578a416f82175
     clientSecret: 1d1c0604a1a4bff9b59ab7f56724dc0e8b837775
-    repository: gitalk-demo
-    owner: kitian616
+    repository  : gitalk-demo
+    owner       : kitian616
     admin:
       - kitian616
 
   ## Valine
   # please refer to https://valine.js.org/en/ for more info.
   valine:
-    app_id: uAG3OhdcH8H4fxSqXLyBljA7-gzGzoHsz
-    app_key: Mzf5m9skSwYVWVXhGiYMNyXs
-    placeholder: # Prompt information
-    visitor: # false (default)
-    meta: # "[nick, mail, link]" (default) nickname, E-mail, Personal-site
+    app_id      : uAG3OhdcH8H4fxSqXLyBljA7-gzGzoHsz
+    app_key     : Mzf5m9skSwYVWVXhGiYMNyXs
+    placeholder : # Prompt information
+    visitor     : # false (default)
+    meta        : # "[nick, mail, link]" (default) nickname, E-mail, Personal-site
+
 
 ## => Pageview
 ##############################
@@ -142,9 +154,10 @@ pageview:
 
   ## Leancloud
   leancloud:
-    app_id: uAG3OhdcH8H4fxSqXLyBljA7-gzGzoHsz
-    app_key: Mzf5m9skSwYVWVXhGiYMNyXs
-    app_class: TeXtDemo
+    app_id    : uAG3OhdcH8H4fxSqXLyBljA7-gzGzoHsz
+    app_key   : Mzf5m9skSwYVWVXhGiYMNyXs
+    app_class : TeXtDemo
+
 
 ## => Search
 ##############################
@@ -155,6 +168,7 @@ search:
   google:
     custom_search_engine_id: # Google Custom Search Engine ID
 
+
 ## => Analytics
 ##############################
 analytics:
@@ -162,14 +176,15 @@ analytics:
 
   ## Google Analytics
   google:
-    tracking_id: UA-71907556-1
+    tracking_id : UA-71907556-1
     anonymize_ip: false
+
 
 ## => Build
 ##############################
-markdown: kramdown
-highlighter: rouge
-permalink: date
+markdown    : kramdown
+highlighter : rouge
+permalink   : date
 
 exclude:
   - CHANGELOG.md
@@ -271,6 +286,7 @@ defaults:
       show_edit_on_github: true
       show_date: false
       # lightbox: true
+
 
 ## => Plugins
 ##############################
