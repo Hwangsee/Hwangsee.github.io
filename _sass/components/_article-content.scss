@@ -1,4 +1,5 @@
 .article__content {
+  font-family: ("Apple SD Gothic Neo", sans-serif);
   line-height: map-get($base, line-height-lg);
   word-wrap: break-word;
   @media print {

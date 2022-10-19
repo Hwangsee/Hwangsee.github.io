@@ -1,9 +1,15 @@
+@font-face {
+  font-family: 'neodgm';
+  src: url(../../font/neodgm.ttf) format('truetype');
+}
+
 .header {
   background: $header-background;
   a {
+    font-family: 'neodgm';
     font-weight: map-get($base, font-weight);
     text-decoration: none !important;
-    @include link-colors($header-text-color, $main-color-1);
+    @include link-colors($header-text-color, $main-color-2);
   }
   .main {
     @include flexbox();
@@ -115,9 +121,9 @@
 }
 .navigation__item--active {
   a {
-    @include link-colors($main-color-1, $main-color-1);
+    @include link-colors($main-color-2, $main-color-2);
   }
   &::after {
-    @include split-line(bottom, 4px, $main-color-1);
+    @include split-line(bottom, 4px, $main-color-2);
   }
 }

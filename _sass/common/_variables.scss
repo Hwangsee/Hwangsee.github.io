@@ -1,5 +1,9 @@
+@font-face {
+  font-family: 'neodgm';
+  src: url(../../font/neodgm.ttf) format('truetype');
+}
 $base: (
-  font-family:            (-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif),
+  font-family:            ('neodgm'), //("Apple SD Gothic Neo", sans-serif),
   font-family-code:       (Menlo, Monaco, Consolas, Andale Mono, lucida console, Courier New, monospace),
 
   font-size-root:         16px,
