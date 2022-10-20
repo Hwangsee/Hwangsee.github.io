@@ -33,7 +33,7 @@
         @include clickable($text-color-1, $linkedin-color);
       }
       .github-button {
-        @include clickable($text-color-1, $github-color);
+        @include clickable(#fff, #000);
       }
       .npm-button {
         @include clickable($text-color-1, $npm-color);
