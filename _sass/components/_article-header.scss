@@ -6,6 +6,7 @@
   }
   header, h1 {
     display: inline;
+    font-weight: normal !important; // neodgm 폰트 깨짐 방지
   }
   h1 {
     word-wrap: break-word;
