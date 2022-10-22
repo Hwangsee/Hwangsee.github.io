@@ -18,11 +18,11 @@ ul.toc {
   .toc-h5,
   .toc-h6 {
     a {
-      @include link-colors($text-color, $main-color-1);
+      @include link-colors($text-color, $main-color-2);
     }
     &.active {
       a {
-        @include link-colors($main-color-1);
+        @include link-colors($main-color-2);
       }
     }
   }
@@ -39,7 +39,6 @@ ul.toc {
     }
   }
   .toc-h1 {
-    @include split-line(bottom);
     padding: map-get($spacers, 2) 0 map-get($spacers, 1) 0;
     margin-bottom: map-get($spacers, 2);
     color: $text-color-d;
@@ -76,10 +75,12 @@ ul.toc {
 }
 
 ul.toc--ellipsis {
+  border-left: 2px solid #e6e6e6;
+  padding: 0.25rem 0.75rem;
   & > li {
     @include overflow(hidden);
     text-overflow: ellipsis;
-    white-space: nowrap;
+    white-space: normal;
   }
 }
 
