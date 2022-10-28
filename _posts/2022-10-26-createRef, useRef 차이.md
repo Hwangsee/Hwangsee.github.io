@@ -22,6 +22,11 @@ tags: [React, TIL]
 - 클래스 컴포넌트는 인스턴스를 생성해, render 메서드를 호출하는 방식으로 리렌더링을 하고, 함수형 컴포넌트는 해당 함수를 **리렌더링마다 다시 실행**한다.
 - 때문에 함수형 컴포넌트에서 `createRef`를 사용하면 리렌더링 될 때마다 ref 값이 초기화 되어 원하는 값을 얻지 못할 수 있다.
 
+## useImperativeHandle와 ForwardRef
+- 리액트는 기본적으로 Declarative(선언형) 패러다임을 따르지만 Ref 기능의 경우 기능을 조작하기 위해 Imperative(명령형) 패러다임을 따른다.
+
+
+
 #### 출처
 - [createRef와 useRef 그리고 useImperativeHandle](https://medium.com/react-native-seoul/react-%EB%A6%AC%EC%95%A1%ED%8A%B8%EB%A5%BC-%EC%B2%98%EC%9D%8C%EB%B6%80%ED%84%B0-%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90-07-createref%EC%99%80-useref-%EA%B7%B8%EB%A6%AC%EA%B3%A0-useimperativehandle-2fb5445d168b)
 - [createRef, useRef의 차이](https://kyounghwan01.github.io/blog/React/useRef-createRef/)
